@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400&family=Space+Mono:wght@400;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0A0A0A;
+    color: #F5F5F5;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', "Arial Black", sans-serif;
+}
+
+.font-mono-custom {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Custom scrollbar for bold black aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
