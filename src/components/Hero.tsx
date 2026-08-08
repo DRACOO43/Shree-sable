@@ -145,7 +145,7 @@ export const Hero: React.FC<HeroProps> = ({
                 <div className="relative mb-6">
                   <div className="w-36 h-36 sm:w-40 sm:h-40 border-2 border-white p-1 overflow-hidden">
                     <img
-                      src="https://github.com/DRACOO43/Shree-sable/blob/8e4cfce8dd72785bab0cab700b8db9dd7ab35577/src/assets/images/ChatGPT%20Image%20Aug%208%2C%202026%2C%2009_59_01%20PM.png"
+                      src={PERSONAL_INFO.avatarUrl}
                       alt={PERSONAL_INFO.name}
                       className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-500"
                       referrerPolicy="no-referrer"

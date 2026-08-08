@@ -9,7 +9,8 @@ export const PERSONAL_INFO = {
   location: 'Pune, Maharashtra, India',
   profileSummary:
     'Dedicated Artificial Intelligence and Machine Learning student with a strong foundation in programming, full stack web development, and AI technologies. Passionate about developing real world applications.',
-  avatarUrl: '/src/assets/images/shree_avatar_1786205401939.jpg',
+  avatarUrl:
+    'https://raw.githubusercontent.com/DRACOO43/Shree-sable/e9537d895aee704f818e7f80bc3ee228575adb5c/src/assets/images/ChatGPT%20Image%20Aug%208%2C%202026%2C%2009_59_01%20PM.png',
   heroBgUrl: '/src/assets/images/ai_hero_bg_1786205417203.jpg',
   github: 'https://github.com/shreesable',
   linkedin: 'https://linkedin.com/in/shree-sable',
