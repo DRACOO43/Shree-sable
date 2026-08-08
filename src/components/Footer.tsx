@@ -75,7 +75,7 @@ export const Footer: React.FC<FooterProps> = ({ darkMode }) => {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/10 text-center text-[10px] font-mono-custom uppercase tracking-widest text-zinc-400">
-          © {new Date().getFullYear()} {PERSONAL_INFO.name}. ALL RIGHTS RESERVED.
+          © {new Date().getFullYear()} {PERSONAL_INFO.name}. ALL RIGHTS RESERVED. • WEBSITE DEVELOPED BY ANSHUMAN BHALERAO
         </div>
       </div>
     </footer>
